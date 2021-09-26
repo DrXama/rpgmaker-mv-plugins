@@ -22,8 +22,25 @@
  * SOFTWARE.
  */
 /*:
+ * @target MZ
  * @author Yeechan Lu (orzFly)
  * @plugindesc A plugin to demonstrate the new Plugin Manager in RPG Maker MV v1.5.0.
+ * @url https://github.com/DrXama/RPG-MAKER-MZ
+ * @base PluginName
+ * @orderAfter PluginName
+ * @orderBefore PluginName
+ *
+ * @command PluginCommand
+ * @text Set Text Picture
+ * @desc Sets text to display as a picture.
+ *       After this, execute "Show Picture" without specifying an image.
+ *
+ * @arg text
+ * @type multiline_string
+ * @text Text
+ * @desc Text to display as a picture.
+ *       Control characters are allowed.
+ *
  * @help
  * This plugin doesn't have any real functionalities.
  *
